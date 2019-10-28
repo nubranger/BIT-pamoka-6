@@ -1,10 +1,3 @@
-form {
+.btn {
+    display: inline-block;
 }
-    .form-row {
-    }
-        label {
-        }
-        input {
-        }
-        .btn {
-        }
