@@ -8,6 +8,7 @@ body * {
 }
 
 body {
+    background-color: whitesmoke;
 }
 
 .container {
@@ -15,33 +16,56 @@ body {
     width: 800px;
     margin-top: 40px;
     margin-left: calc( (100% - 800px) / 2 );
+    
+    
 }
     .left {
         display: inline-block;
         width: 40%;
         float: left;
-        background-color: aqua;
+        background: url(/img/hill.png);
+        background-size:initial;
+        background-repeat: no-repeat;
+        height: 480px;
+        margin-top: 20px;
+        color: white;
+        
+        
     }
         h1 {
             display: inline-block;
             width: 100%;
+            text-align: center;
+            margin-top: 50px;
+            
+            
         }
         footer {
             display: inline-block;
-            width: 100%;
+            margin-left: 20%;
+            margin-top: 350px;
         }
             footer > a {
                 display: inline-block;
+                color: white;
+                text-decoration: none;
+               
+                
             }
             footer > span {
                 display: inline-block;
+                
+                
             }
+          
+            
     .right {
         display: inline-block;
         width: 60%;
         float: left;
         padding: 80px;
-        background-color: pink;
+        background-color: white;
+        
     }
         .x {
             display: inline-block;
