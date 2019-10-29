@@ -9,6 +9,7 @@ body * {
 
 body {
     background-color: whitesmoke;
+    background: url(/img/background.jpg);
 }
 
 .container {
@@ -69,10 +70,21 @@ body {
     }
         .x {
             display: inline-block;
+            float: right;
+            color: grey;
+            text-transform: uppercase;
+            
         }
         .form-row > span {
             display: inline-block;
+            margin-top: 10px;
+            margin-left:10px;
+            font-size: 20px;
         }
         .form-row > a {
             display: inline-block;
+            margin-top: 10px;
+            font-size: 20px;
+            text-decoration: none;
+            color: blue;
         }

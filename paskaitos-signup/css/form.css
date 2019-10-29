@@ -6,6 +6,8 @@ form {
         display: inline-block;
         width: 100%;
         margin-bottom: 40px;
+        text-transform: uppercase;
+        color: grey;
         
     }
         .no-margin {
@@ -18,4 +20,7 @@ form {
         input {
             display: inline-block;
             width: 100%;
+            border-top: none;
+            border-right: none ;
+            border-left: none;
         }
