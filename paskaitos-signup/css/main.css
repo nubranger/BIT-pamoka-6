@@ -20,10 +20,15 @@ body {
         float: left;
         background-color: rgb(95, 109, 240);
         color: white;
+        
         /* background: url(/img/hill.png);
         background-size:initial;
         background-repeat: no-repeat; */
-        
+        background-image: url(../img/hill.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+       /* nuotraukos pozicija background-position: bottom center; */
+        background-position: center;
         position: absolute;
         top: 30px;
         bottom: 30px;
