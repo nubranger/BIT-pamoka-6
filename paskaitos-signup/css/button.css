@@ -2,11 +2,33 @@
     display: inline-block;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
     background-color: blue;
     color: white;
     border-radius: 20px;
     font-size: 18px;
     line-height: 20px;
+    /* rankute */
+    cursor: pointer;
+
 }
+
+    .btn:hover {
+        /* background-color: white;
+        color: teal;
+        border:2px solid palevioletred;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 30px;
+        padding-left: 30px; */
+
+        /* pirmas horizontalus pasislinkimas */
+        /* antras vertikaliai pasislinkimas */
+        /* trecias skaicius yra isblurinimas */
+        /* ketviras skaicius isdidina */
+        background-color: rgb(99, 89, 245);
+        /* seseliu galima prideti belekike */
+        /* box-shadow: -40px -40px 8px #0008, 40px 40px 8px red; */
+        box-shadow: 0px 4px 8px #0008
+    } 

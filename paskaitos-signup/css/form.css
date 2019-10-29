@@ -31,3 +31,9 @@ form {
             border-bottom: grey solid 1px;
 
         }
+        /* pazymejus ivesties lauka */
+            input:focus {
+                
+                outline-color: red;
+                
+            }
