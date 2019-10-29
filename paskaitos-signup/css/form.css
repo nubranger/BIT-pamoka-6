@@ -6,8 +6,8 @@ form {
         display: inline-block;
         width: 100%;
         margin-bottom: 40px;
-        text-transform: uppercase;
-        color: grey;
+        
+        
         
     }
         .no-margin {
@@ -16,11 +16,18 @@ form {
         label {
             display: inline-block;
             width: 100%;
+            color: grey;
+            line-height: 20px;
+            font-size: 16px;
+            text-transform: uppercase;
+            margin-bottom: 5px;
         }
         input {
             display: inline-block;
             width: 100%;
-            border-top: none;
-            border-right: none ;
-            border-left: none;
+            line-height: 40px;
+            font-size: 20px;
+            border: none;
+            border-bottom: grey solid 1px;
+
         }
