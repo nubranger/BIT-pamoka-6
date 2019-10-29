@@ -10,6 +10,7 @@ body {
     width: 800px;
     margin-top: 40px;
     margin-left: calc( (100% - 800px) / 2 );
+    position: relative;
     
     
 }
@@ -18,19 +19,23 @@ body {
         width: 40%;
         float: left;
         background-color: rgb(95, 109, 240);
-        
+        color: white;
         /* background: url(/img/hill.png);
         background-size:initial;
         background-repeat: no-repeat; */
         
+        position: absolute;
+        top: 30px;
+        bottom: 30px;
         
-        color: white;
+        
         
         
     }
         h1 {
             display: inline-block;
             width: 100%;
+            padding:20px;
             
             
             
@@ -38,6 +43,13 @@ body {
         }
         footer {
             display: inline-block;
+            /* width: 100%; */
+
+            position: absolute;
+            bottom: 10px;
+            left: 20px;
+            right: 20px;
+           
             
            
         }
@@ -58,16 +70,28 @@ body {
     .right {
         display: inline-block;
         width: 60%;
-        float: left;
+        float: right;
         padding: 80px;
         background-color: white;
+        /* visi position by default buna static */
+        position: relative;
         
     }
         .x {
             display: inline-block;
-            float: right;
-            color: grey;
-            text-transform: uppercase;
+            color: gray;
+            height: 80px;
+            width: 80px;
+            font-size: 40px;
+            text-align: center;
+            line-height: 74px;
+
+            position: absolute;
+            top: 0;
+            right: 0;
+            
+            /* margin-top: -80px;
+            margin-left: 320px; */
             
         }
         .form-row > span {
